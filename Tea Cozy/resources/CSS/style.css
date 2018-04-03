@@ -1,0 +1,190 @@
+/* Universal styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+a{
+  color:inherit;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h4 {
+  font-weight: bold;
+}
+/* Header */
+
+.header-container {
+  background-color: black;
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  z-index: 2;
+}
+
+.logo {
+  display: inline-flex;
+  z-index: 1;
+  margin: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+.header-container nav {
+  display:inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+/* Mission */
+.mission {
+  background-color: black;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+}
+.background-image {
+  width: 1200px;
+  height: 700px;
+}
+
+.mission-statement {
+  height: 100px;
+  width:1200px;
+  position: absolute;
+  top: 350px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* Tea of the Month */
+
+.teaofthemonth {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 600px;
+  padding-top: 150px;
+  padding-bottom: 20px;
+}
+
+
+.tea-images {
+  background-color: black;
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction:column;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+img.image {
+  height: 200px;
+  width: 300px;
+}
+
+.text h4{
+  align-items: flex-end;
+  justify-content: center;
+  position:relative;
+  top:10px;
+}
+
+/* locations */
+
+.locations {
+  background-color: black;
+  height: 550px;
+  width: 100%;
+}
+
+.title{
+  position:absolute;
+  top:1520px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.location-image {
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.address {
+  height: 280px;
+  width:300px;
+  background-color: black;
+  padding: 10px;
+  margin: 40px;
+  flex-wrap: wrap;
+  opacity: 1;
+
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  padding-bottom: 40px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.copyright {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+  align-items: center;
+  padding: 20px;
+}
